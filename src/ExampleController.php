@@ -6,6 +6,8 @@ namespace DependencyInjectionExample;
 
 final class ExampleController
 {
+    const LOOPS = 10000000;
+
     /**
      * @var ExampleService
      */

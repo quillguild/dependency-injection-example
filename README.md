@@ -68,29 +68,63 @@ For 1 call:
 | PHP-DI        | 0.067          | 14.92            | 0.0025                      |
 | Symfony       | 0.069          | 14.49            | 0.0044                      |
 
+## Memory / included files tests
+
+Results of tests to check memory usage and included files:
+
+| PHP Container | Time  | Memory | Files |
+|---------------|-------|--------|-------|
+| PHP-DI        | 0.799 | 0.85   | 44    |
+| Quill DI      | 1.071 | 0.63   | 27    |
+| Aura.Di       | 1.99  | 0.69   | 28    |
+| Symfony       | 2.52  | 1.16   | 41    |
+| Dice          | 16.33 | 0.7    | 23    |
+| Laminas DI    | 41.86 | 0.8    | 38    |
+
+PHP pseudocode to generate these results:
+
+```php
+for ($i = 0; $i < 10000000; ++$i) {
+    $controller = $container->get(ExampleController::class);
+}
+```
+
+You can find scripts to run in `public/benchmark` directory.
+
 ## Command to run
 
 Quill DI:
 ```
 php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/quill-di.php" 1 1
+php public/benchmark/quill-di.php
 ```
 
 Dice:
 ```
 php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/dice.php" 1 1
+php public/benchmark/dice.php
 ```
 
 PHP-DI:
 ```
 php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/php-di.php" 1 1
+php public/benchmark/php-di.php
 ```
 
 Symfony:
 ```
 php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/symfony.php" 1 1
+php public/benchmark/symfony.php
 ```
 
 Laminas DI:
 ```
 php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/laminas-di.php" 1 1
+php public/benchmark/laminas-di.php
+```
+
+Aura.Di:
+```
+php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/aura-di.php" 1 1
+php public/benchmark/aura-di.php
 ```
