@@ -13,7 +13,8 @@
         "quillguild/dependency-injection": "^1.0",
         "php-di/php-di": "^6.2",
         "level-2/dice": "^4.0",
-        "symfony/dependency-injection": "^5.1"
+        "symfony/dependency-injection": "^5.1",
+        "laminas/laminas-di": "^3.1"
     },
     "autoload": {
         "psr-4": {
