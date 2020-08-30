@@ -1,0 +1,25 @@
+{
+    "name": "quillguild/dependency-injection-example",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radoslaw@ziemniewicz.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "quillguild/dependency-injection": "^1.0",
+        "php-di/php-di": "^6.2",
+        "level-2/dice": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DependencyInjectionExample\\": "src/"
+        }
+    },
+    "require-dev": {
+        "quillguild/benchmark": "^1.0"
+    }
+}

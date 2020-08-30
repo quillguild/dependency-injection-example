@@ -1,2 +1,3 @@
-# dependency-injection-example
+# DI examples and benchmarks
+
 An example of the Dependency Injection usage.
