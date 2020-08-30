@@ -19,9 +19,21 @@ For 100 calls, where 5 were sent concurrently:
 Run on PHP 7.4, Mac OS X, 2.6 GHz Quad-Core Intel Core i7, 16 GB 2133 MHz
 LPDDR3. Tests were run several times, the best results were taken.
 
-### Results 1000/100
+### Results 1,0000/1,000
 
-For 1000 calls, where 1000 were sent concurrently:
+The bigger differences are visible for 10,000 calls, where 1,000 were sent
+concurrently:
+
+| PHP Container | Took (seconds) | Calls per second | Average call time (seconds) |
+|---------------|----------------|------------------|-----------------------------|
+| Quill DI      | 71.045         | 140.75           | 0.032                       |
+| Dice          | 71.192         | 140.46           | 0.034                       |
+| PHP-DI        | 75.768         | 131.98           | 0.082                       |
+| Symfony       | 81.504         | 122.69           | 0.117                       |
+
+### Results 1,000/100
+
+For 1,000 calls, where 100 were sent concurrently:
 
 | PHP Container | Took (seconds) | Calls per second | Average call time (seconds) |
 |---------------|----------------|------------------|-----------------------------|
