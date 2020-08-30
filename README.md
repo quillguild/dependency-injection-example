@@ -74,8 +74,8 @@ Results of tests to check memory usage and included files:
 
 | PHP Container | Time  | Memory | Files |
 |---------------|-------|--------|-------|
+| Quill DI      | 0.765 | 0.63   | 27    |
 | PHP-DI        | 0.799 | 0.85   | 44    |
-| Quill DI      | 1.071 | 0.63   | 27    |
 | Aura.Di       | 1.99  | 0.69   | 28    |
 | Symfony       | 2.52  | 1.16   | 41    |
 | Dice          | 16.33 | 0.7    | 23    |
