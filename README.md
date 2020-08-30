@@ -29,3 +29,36 @@ For 1000 calls, where 1000 were sent concurrently:
 | Dice          | 7.724          | 129.4            | 0.024                       |
 | PHP-DI        | 8.568          | 116.7            | 0.073                       |
 | Symfony       | 8.507          | 117.5            | 0.126                       |
+
+### Results 1/1
+
+For 1 call:
+
+| PHP Container | Took (seconds) | Calls per second | Average call time (seconds) |
+|---------------|----------------|------------------|-----------------------------|
+| Quill DI      | 7.311          | 136.7            | 0.023                       |
+| Dice          | 7.724          | 129.4            | 0.024                       |
+| PHP-DI        | 8.568          | 116.7            | 0.073                       |
+| Symfony       | 8.507          | 117.5            | 0.126                       |
+
+## Command to run
+
+Quill DI:
+```
+php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/quill-di.php" 1 1
+```
+
+Dice:
+```
+php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/dice.php" 1 1
+```
+
+PHP-DI:
+```
+php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/php-di.php" 1 1
+```
+
+Symfony:
+```
+php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/symfony.php" 1 1
+```
