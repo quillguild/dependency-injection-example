@@ -45,9 +45,9 @@ For 100 calls, where 5 were sent concurrently:
 
 | PHP Container | Took (seconds) | Calls per second | Average call time (seconds) |
 |---------------|----------------|------------------|-----------------------------|
-| Laminas DI    | 0.997          | 100.3            | 0.002                       |
-| Quill DI      | 1.029          | 97.18            | 0.0009                      |
-| Dice          | 1.037          | 96.43            | 0.0009                      |
+| Quill DI      | 0.922          | 108.4            | 0.0008                      |
+| Laminas DI    | 0.997          | 100.3            | 0.0009                      |
+| Dice          | 1.037          | 96.43            | 0.002                       |
 | PHP-DI        | 1.123          | 89.04            | 0.003                       |
 | Symfony       | 1.135          | 88.1             | 0.006                       |
 
