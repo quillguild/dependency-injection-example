@@ -14,7 +14,8 @@
         "php-di/php-di": "^6.2",
         "level-2/dice": "^4.0",
         "symfony/dependency-injection": "^5.1",
-        "laminas/laminas-di": "^3.1"
+        "laminas/laminas-di": "^3.1",
+        "aura/di": "^4.1"
     },
     "autoload": {
         "psr-4": {
