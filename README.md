@@ -134,4 +134,4 @@ php public/benchmark/aura-di.php
 If you want to know more about other solutions, visit the website: \
 https://quillstack.com/ 
 
-![The Quill Stack](quillstack.png)
+![The Quill Stack](https://raw.githubusercontent.com/quillstack/quillstack.com/master/docs/quillstack.png)
