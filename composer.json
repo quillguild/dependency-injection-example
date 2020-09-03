@@ -1,5 +1,5 @@
 {
-    "name": "quillguild/dependency-injection-example",
+    "name": "quillstack/di-examples",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.4",
-        "quillguild/dependency-injection": "^1.0",
+        "quillstack/di": "^1.0",
         "php-di/php-di": "^6.2",
         "level-2/dice": "^4.0",
         "symfony/dependency-injection": "^5.1",
@@ -23,7 +23,7 @@
         }
     },
     "require-dev": {
-        "quillguild/benchmark": "^1.0",
+        "quillstack/benchmark": "^1.0",
         "symfony/var-dumper": "^5.1"
     }
 }

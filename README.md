@@ -4,7 +4,7 @@ An example of the Dependency Injection usage.
 
 You can find benchmark scripts which were used in this test in `public`
 directory. Tested libraries:
-- Quill DI: https://github.com/quillguild/dependency-injection
+- Quill DI: https://github.com/quillstack/di
 - Dice: https://github.com/Level-2/Dice
 - PHP-DI: https://github.com/PHP-DI/PHP-DI
 - Symfony: https://github.com/symfony/dependency-injection
@@ -95,36 +95,43 @@ You can find scripts to run in `public/benchmark` directory.
 
 Quill DI:
 ```
-php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/quill-di.php" 1 1
+php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/quill-di.php" 1 1
 php public/benchmark/quill-di.php
 ```
 
 Dice:
 ```
-php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/dice.php" 1 1
+php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/dice.php" 1 1
 php public/benchmark/dice.php
 ```
 
 PHP-DI:
 ```
-php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/php-di.php" 1 1
+php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/php-di.php" 1 1
 php public/benchmark/php-di.php
 ```
 
 Symfony:
 ```
-php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/symfony.php" 1 1
+php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/symfony.php" 1 1
 php public/benchmark/symfony.php
 ```
 
 Laminas DI:
 ```
-php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/laminas-di.php" 1 1
+php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/laminas-di.php" 1 1
 php public/benchmark/laminas-di.php
 ```
 
 Aura.Di:
 ```
-php vendor/quillguild/benchmark/bin/benchmark.php benchmark:console "php public/aura-di.php" 1 1
+php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/aura-di.php" 1 1
 php public/benchmark/aura-di.php
 ```
+
+## Quill Stack
+
+If you want to know more about other solutions, visit the website: \
+https://quillstack.com/ 
+
+![The Quill Stack](quillstack.png)
