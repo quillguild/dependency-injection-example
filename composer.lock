@@ -598,16 +598,16 @@
         },
         {
             "name": "quillstack/di",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quillstack/di.git",
-                "reference": "8c4d0c023496a9b9209aae30057e6ec9d0f649a6"
+                "reference": "04e79c35316e8384dbf2c8a8984b975c1c97a693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quillstack/di/zipball/8c4d0c023496a9b9209aae30057e6ec9d0f649a6",
-                "reference": "8c4d0c023496a9b9209aae30057e6ec9d0f649a6",
+                "url": "https://api.github.com/repos/quillstack/di/zipball/04e79c35316e8384dbf2c8a8984b975c1c97a693",
+                "reference": "04e79c35316e8384dbf2c8a8984b975c1c97a693",
                 "shasum": ""
             },
             "require": {
@@ -621,8 +621,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "QuillDI\\": "src/QuillDI/",
-                    "QuillDIMocks\\": "tests/QuillDIMocks/"
+                    "QuillStack\\DI\\": "src/QuillStack/DI/",
+                    "QuillStack\\Mocks\\DI\\": "tests/QuillStack/Mocks/DI/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -637,7 +637,7 @@
             ],
             "description": "The dependency injection container based on PSR-11: Container interface, and with the main goal: to be fast.",
             "homepage": "https://quilldi.com",
-            "time": "2020-09-03T13:31:50+00:00"
+            "time": "2020-09-05T16:36:04+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -952,16 +952,16 @@
     "packages-dev": [
         {
             "name": "quillstack/benchmark",
-            "version": "1.0.3",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quillstack/benchmark.git",
-                "reference": "cff7863531317de2b3b94db9d70815604f34f58e"
+                "reference": "230fc4d56c34b1a1c049999f039fae2e6b71c1ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quillstack/benchmark/zipball/cff7863531317de2b3b94db9d70815604f34f58e",
-                "reference": "cff7863531317de2b3b94db9d70815604f34f58e",
+                "url": "https://api.github.com/repos/quillstack/benchmark/zipball/230fc4d56c34b1a1c049999f039fae2e6b71c1ab",
+                "reference": "230fc4d56c34b1a1c049999f039fae2e6b71c1ab",
                 "shasum": ""
             },
             "require": {
@@ -974,7 +974,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "QuillBenchamrk\\": "src/QuillBenchamrk/"
+                    "QuillStack\\Benchmark\\": "src/QuillStack/Benchmark/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -987,7 +987,8 @@
                     "email": "radoslaw@ziemniewicz.pl"
                 }
             ],
-            "time": "2020-08-30T18:36:46+00:00"
+            "description": "Bash/PHP script to benchmark HTTP requests and command line scripts.",
+            "time": "2020-09-05T16:46:16+00:00"
         },
         {
             "name": "symfony/console",

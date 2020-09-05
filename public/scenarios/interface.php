@@ -3,7 +3,7 @@
 use DependencyInjectionExample\ExampleLogger;
 use DependencyInjectionExample\ExampleLoggerController;
 use DependencyInjectionExample\ExampleLoggerInterface;
-use QuillDI\Container;
+use QuillStack\DI\Container;
 
 require __DIR__ . '/../../vendor/autoload.php';
 

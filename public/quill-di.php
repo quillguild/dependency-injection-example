@@ -1,7 +1,7 @@
 <?php
 
 use DependencyInjectionExample\ExampleController;
-use QuillDI\Container;
+use QuillStack\DI\Container;
 
 require __DIR__ . '/../vendor/autoload.php';
 

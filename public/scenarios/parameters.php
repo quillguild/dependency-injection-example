@@ -2,7 +2,7 @@
 
 use DependencyInjectionExample\ExampleDatabase;
 use DependencyInjectionExample\ExampleDatabaseController;
-use QuillDI\Container;
+use QuillStack\DI\Container;
 
 require __DIR__ . '/../../vendor/autoload.php';
 
