@@ -95,37 +95,37 @@ You can find scripts to run in `public/benchmark` directory.
 
 QuillStack DI:
 ```
-php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/quill-di.php" 1 1
+php vendor/bin/benchmark benchmark:console "php public/quill-di.php" 1 1
 php public/benchmark/quill-di.php
 ```
 
 Dice:
 ```
-php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/dice.php" 1 1
+php vendor/bin/benchmark benchmark:console "php public/dice.php" 1 1
 php public/benchmark/dice.php
 ```
 
 PHP-DI:
 ```
-php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/php-di.php" 1 1
+php vendor/bin/benchmark benchmark:console "php public/php-di.php" 1 1
 php public/benchmark/php-di.php
 ```
 
 Symfony:
 ```
-php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/symfony.php" 1 1
+php vendor/bin/benchmark benchmark:console "php public/symfony.php" 1 1
 php public/benchmark/symfony.php
 ```
 
 Laminas DI:
 ```
-php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/laminas-di.php" 1 1
+php vendor/bin/benchmark benchmark:console "php public/laminas-di.php" 1 1
 php public/benchmark/laminas-di.php
 ```
 
 Aura.Di:
 ```
-php vendor/quillstack/benchmark/bin/benchmark.php benchmark:console "php public/aura-di.php" 1 1
+php vendor/bin/benchmark benchmark:console "php public/aura-di.php" 1 1
 php public/benchmark/aura-di.php
 ```
 
@@ -134,4 +134,4 @@ php public/benchmark/aura-di.php
 If you want to know more about other solutions, visit the website: \
 https://quillstack.com/ 
 
-![The Quill Stack](http://quillstack.com/quillstack.png)
+[![The Quill Stack](http://quillstack.com/quillstack.png)](https://quillstack.com/)
